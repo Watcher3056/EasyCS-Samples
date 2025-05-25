@@ -1,4 +1,3 @@
-using EasyCS.EventSystem;
 using UnityEngine;
 
 namespace EasyCS.Samples

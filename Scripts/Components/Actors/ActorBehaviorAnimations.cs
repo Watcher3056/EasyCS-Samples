@@ -1,5 +1,4 @@
 ﻿using EasyCS.EventSystem;
-using System;
 
 namespace EasyCS.Samples
 {
