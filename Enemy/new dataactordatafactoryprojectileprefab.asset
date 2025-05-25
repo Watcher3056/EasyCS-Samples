@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4029069427b0da469c511fe1c96c7e1, type: 3}
+  m_Name: new dataactordatafactoryprojectileprefab
+  m_EditorClassIdentifier: 
+  guid:
+    sourceType: 1
+    _randomId: f5195a12e3fa49d393a9c3510709d10c
+    _customId: 
+  _data:
+    <Prefab>k__BackingField: {fileID: 2200149221139181438, guid: 88a0ba7270889093cb3a346d0827524a, type: 3}
+    <ProjectileSpeed>k__BackingField: 2

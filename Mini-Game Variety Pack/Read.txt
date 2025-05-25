@@ -1,0 +1,14 @@
+The Mini-Game Variety Pack is a bundle of game assets that contains over 50 (+ colour variations!) different stylised 3D assets designed for a variety of different game types, perfect for mini-games, prototypes or gamejams.
+
+Included files are FBX, OBJ, DAE and GLTF. The files are compatible with most game engines on the market (including Unity, Unreal Engine and PlayCanvas) and work on any platform.
+
+Contents
+3 simple character models
+A set of floor tiles to build levels with in a few variations
+Various different objective assets (goals, gates, rings and hoops, a ball) in 3 distinct colours for team-based gameplay.
+Different weaponry for combat type gameplay
+Powerup/Pickups: Heart, Bomb, Star, Diamond, Power.
+Features
+Free regular updates adding new content
+Free for personal and commercial use, no attribution required. (CC0)
+*packaging mock-ups not included in the asset pack.
