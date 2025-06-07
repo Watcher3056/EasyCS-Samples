@@ -2,7 +2,7 @@
 
 namespace EasyCS.Samples
 {
-    public class ActorBehaviorAnimations : ActorBehavior, IUpdate, IEventListener<EventTryAttack>, IEventListener<EventDied>
+    public partial class ActorBehaviorAnimations : ActorBehavior, IUpdate, IEventListener<EventTryAttack>, IEventListener<EventDied>
     {
         [Bind]
         private EntityDataMove _dataMove;

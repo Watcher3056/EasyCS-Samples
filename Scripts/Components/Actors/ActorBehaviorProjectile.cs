@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace EasyCS.Samples
 {
-    public class ActorBehaviorProjectile : ActorBehavior
+    public partial class ActorBehaviorProjectile : ActorBehavior
     {
         [Bind]
         private EntityDataAttackDamage _dataDamage;

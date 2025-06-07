@@ -2,7 +2,7 @@
 
 namespace EasyCS.Samples
 {
-    public class ActorBehaviorAttackMelee : ActorBehavior, IEventListener<EventTryAttack>
+    public partial class ActorBehaviorAttackMelee : ActorBehavior, IEventListener<EventTryAttack>
     {
         [Bind]
         private EntityDataAttackDamage _dataDamage;

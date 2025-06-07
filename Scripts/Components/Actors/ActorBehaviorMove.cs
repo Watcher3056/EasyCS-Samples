@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace EasyCS.Samples
 {
-    public class ActorBehaviorMove : ActorBehavior, IFixedUpdate, IEventListener<EventDied>
+    public partial class ActorBehaviorMove : ActorBehavior, IFixedUpdate, IEventListener<EventDied>
     {
         [Bind]
         private EntityDataMove _dataMove;

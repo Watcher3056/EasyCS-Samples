@@ -6,7 +6,7 @@ using UnityEngine.Pool;
 
 namespace EasyCS.Samples
 {
-    public class ActorBehaviorAttack : ActorBehavior, IUpdate, IEventListener<EventDied>
+    public partial class ActorBehaviorAttack : ActorBehavior, IUpdate, IEventListener<EventDied>
     {
         [Bind]
         private EntityDataTeam _dataTeam;

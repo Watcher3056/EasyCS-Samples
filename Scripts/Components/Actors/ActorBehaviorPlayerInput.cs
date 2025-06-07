@@ -2,7 +2,7 @@
 
 namespace EasyCS.Samples
 {
-    public class ActorBehaviorPlayerInput : ActorBehavior, IUpdate
+    public partial class ActorBehaviorPlayerInput : ActorBehavior, IUpdate
     {
         [Bind]
         private EntityDataMove _dataMove;

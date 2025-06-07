@@ -3,7 +3,7 @@ using EasyCS.EventSystem;
 
 namespace EasyCS.Samples
 {
-    public class ActorBehaviorAttackRanged : ActorBehavior, IEventListener<EventTryAttack>
+    public partial class ActorBehaviorAttackRanged : ActorBehavior, IEventListener<EventTryAttack>
     {
         [Bind]
         private EntityDataAttack _dataAttack;

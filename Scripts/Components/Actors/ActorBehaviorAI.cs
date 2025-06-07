@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace EasyCS.Samples
 {
-    public class ActorBehaviorAI : ActorBehavior, IUpdate, IEventListener<EventDied>
+    public partial class ActorBehaviorAI : ActorBehavior, IUpdate, IEventListener<EventDied>
     {
         [Bind]
         private EntityDataTarget _dataTarget;

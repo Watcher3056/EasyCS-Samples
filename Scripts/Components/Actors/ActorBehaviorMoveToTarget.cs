@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace EasyCS.Samples
 {
-    public class ActorBehaviorMoveToTarget : ActorBehavior, IUpdate
+    public partial class ActorBehaviorMoveToTarget : ActorBehavior, IUpdate
     {
         [Bind]
         private EntityDataTarget _dataTarget;

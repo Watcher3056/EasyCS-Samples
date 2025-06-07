@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace EasyCS.Samples
 {
-    public class ActorDataProjectileSpawnPoint : ActorData
+    public partial class ActorDataProjectileSpawnPoint : ActorData
     {
         [field: SerializeField, Required]
         public Transform SpawnPoint { get; private set; }
