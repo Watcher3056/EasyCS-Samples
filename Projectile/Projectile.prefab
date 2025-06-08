@@ -248,9 +248,9 @@ GameObject:
   - component: {fileID: 8958252460540052570}
   - component: {fileID: 2200149221139181438}
   - component: {fileID: 483670180636502779}
+  - component: {fileID: 4537384215705271787}
   - component: {fileID: 7147414256559430765}
   - component: {fileID: 4883430975960722582}
-  - component: {fileID: 4537384215705271787}
   - component: {fileID: 5911294046479103594}
   - component: {fileID: 3428612613130527729}
   - component: {fileID: 3082614275808053370}
@@ -306,13 +306,13 @@ MonoBehaviour:
   - {fileID: 3428612613130527729}
   - {fileID: 3082614275808053370}
   _rootRelation:
-    rid: 2660559194502987849
+    rid: 2751708365177487445
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 2660559194502987849
+    - rid: 2751708365177487445
       type: {class: PrefabRootData/ActorRelation, ns: EasyCS, asm: EasyCS.Runtime}
       data:
         Actor: {fileID: 483670180636502779}
@@ -332,6 +332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityProvider: {fileID: 0}
+  <EntityTemplate>k__BackingField: {fileID: 0}
   _allComponents:
   - {fileID: 7147414256559430765}
   - {fileID: 4883430975960722582}
@@ -352,6 +353,20 @@ MonoBehaviour:
     - rid: 2660559143549796906
       type: {class: EntityDataTarget, ns: EasyCS.Samples, asm: EasyCS.Samples}
       data: 
+--- !u!114 &4537384215705271787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6987096062621065172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e3965474c117914d8a8e97adc6eeae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _actor: {fileID: 483670180636502779}
+  <Rigidbody>k__BackingField: {fileID: 4467239410102314115}
 --- !u!114 &7147414256559430765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,20 +401,6 @@ MonoBehaviour:
   _factory: {fileID: 0}
   _component:
     _value: 2
---- !u!114 &4537384215705271787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6987096062621065172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e3965474c117914d8a8e97adc6eeae4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _actor: {fileID: 483670180636502779}
-  <Rigidbody>k__BackingField: {fileID: 4467239410102314115}
 --- !u!114 &5911294046479103594
 MonoBehaviour:
   m_ObjectHideFlags: 0

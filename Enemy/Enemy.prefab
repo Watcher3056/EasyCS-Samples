@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 1760584776730780398}
   - component: {fileID: -9178827824041319682}
   - component: {fileID: 6509610357307502256}
-  - component: {fileID: 1161001816714304260}
+  - component: {fileID: 2921844172625410185}
   - component: {fileID: 5213727275160354300}
   - component: {fileID: 7155972124955153297}
   - component: {fileID: 4474970742960622340}
   - component: {fileID: 8518982680960055131}
   - component: {fileID: 6443598777843405306}
-  - component: {fileID: 2921844172625410185}
+  - component: {fileID: 1161001816714304260}
   - component: {fileID: 1118252910966528007}
   - component: {fileID: 5584198439987421497}
   - component: {fileID: 1278543733402544904}
@@ -83,13 +83,13 @@ MonoBehaviour:
   - {fileID: 3403561858933776002}
   - {fileID: 3572482995942633900}
   _rootRelation:
-    rid: 2660559233216151616
+    rid: 2751708365177487438
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 2660559233216151616
+    - rid: 2751708365177487438
       type: {class: PrefabRootData/ActorRelation, ns: EasyCS, asm: EasyCS.Runtime}
       data:
         Actor: {fileID: 6509610357307502256}
@@ -109,6 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityProvider: {fileID: 0}
+  <EntityTemplate>k__BackingField: {fileID: 0}
   _allComponents:
   - {fileID: 5213727275160354300}
   - {fileID: 7155972124955153297}
@@ -143,7 +144,7 @@ MonoBehaviour:
       type: {class: EntityDataHealth, ns: EasyCS.Samples, asm: EasyCS.Samples}
       data:
         _value: 0
---- !u!114 &1161001816714304260
+--- !u!114 &2921844172625410185
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,10 +153,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 9204111188262642548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09041cb38310ed94ca2f76a5ce705d49, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e3965474c117914d8a8e97adc6eeae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _actor: {fileID: 6509610357307502256}
+  <Rigidbody>k__BackingField: {fileID: 2779972989339590296}
 --- !u!114 &5213727275160354300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,7 +245,7 @@ MonoBehaviour:
   _factory: {fileID: 0}
   _component:
     _value: 2
---- !u!114 &2921844172625410185
+--- !u!114 &1161001816714304260
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -252,11 +254,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 9204111188262642548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e3965474c117914d8a8e97adc6eeae4, type: 3}
+  m_Script: {fileID: 11500000, guid: 09041cb38310ed94ca2f76a5ce705d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _actor: {fileID: 6509610357307502256}
-  <Rigidbody>k__BackingField: {fileID: 2779972989339590296}
 --- !u!114 &1118252910966528007
 MonoBehaviour:
   m_ObjectHideFlags: 0
